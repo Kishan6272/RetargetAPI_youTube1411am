@@ -17,6 +17,7 @@ public class Booking {
     private int totalprice;
     private boolean depositpaid;
 
-    private BookingDates bookingDates;
+    private BookingDates bookingdates;
     private String additionalneeds;
+   // private int totalprice;
 }

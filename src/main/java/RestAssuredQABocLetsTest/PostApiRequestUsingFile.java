@@ -21,9 +21,10 @@ public class PostApiRequestUsingFile extends BaseTest {
     public void postApiRequest()
         {
             try {
-                String postApiRequestBody=FileUtils.readFileToString(new File(FileNameConstants.post_API_Request_Body),"UTF-8");
-                System.out.println(postApiRequestBody);
+                String postApiRequestBody=FileUtils.readFileToString(new File(FileNameConstants.PUT_API_Request_Body),"UTF-8");
+                String tokenApiRequestBody=FileUtils.readFileToString(new File(FileNameConstants.Token_API_Request_Body),"UTF-8");
 
+                // post api call
               Response response=
                 RestAssured
                         .given()
@@ -41,7 +42,7 @@ public class PostApiRequestUsingFile extends BaseTest {
              JSONArray jsonArray= JsonPath.read( response.body().asString(), "$.booking..firstname");
              String firstName= (String) jsonArray.get(0);
 
-                Assert.assertEquals(firstName,"apitesting");
+                Assert.assertEquals(firstName,"APItesting");
 
 
                 JSONArray jsonArrayLastName= JsonPath.read( response.body().asString(), "$.booking..lastname");
@@ -57,6 +58,8 @@ public class PostApiRequestUsingFile extends BaseTest {
 
                 int bookingId= JsonPath.read( response.body().asString(), "$.bookingid");
 
+
+                // get api call
                 RestAssured
                         .given()
                           .contentType(ContentType.JSON)
