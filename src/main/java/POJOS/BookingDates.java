@@ -11,7 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class BookingDates {
-  private String checkin;
+    private String checkin;
     private String checkout;
   //kishannn
 }
