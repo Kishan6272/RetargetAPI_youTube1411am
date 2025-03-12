@@ -25,7 +25,7 @@ public class GetApiRequest {
                 get().
                 then().
                 assertThat()
-                .statusCode(210).header("Content-Type","application/json; charset=utf-8")
+                .statusCode(200).header("Content-Type","application/json; charset=utf-8")
                 .header("X-Powered-By","Express").extract().response();
 
        // Response response=RestAssured.get("https://restful-booker.herokuapp.com/booking");
