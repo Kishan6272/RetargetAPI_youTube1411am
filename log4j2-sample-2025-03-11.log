@@ -1,0 +1,170 @@
+2025-03-11T22:06:00,234 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\Kishan Kumar Pandey\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-03-11T22:06:00,658 [main] INFO  (AllureReportGeneration.java:37) -  e2eApiRequest test execution started....
+2025-03-11T22:06:17,386 [main] INFO  (AllureReportGeneration.java:154) - e2eApiRequest test execution ended....
+2025-03-11T22:11:40,930 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,937 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,942 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,942 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,946 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,946 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,946 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,946 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,947 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,947 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,947 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,947 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,947 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,947 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,947 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,947 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,955 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,963 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+2025-03-11T22:11:40,963 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,963 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,971 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,971 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,974 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,974 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,975 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,975 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,975 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,975 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:40,975 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:11:40,975 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:11:41,004 [main] INFO  (Logger.java:112) - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2025-03-11T22:11:41,495 [main] INFO  (AllureReportGeneration.java:37) -  e2eApiRequest test execution started....
+2025-03-11T22:12:10,361 [main] INFO  (AllureReportGeneration.java:154) - e2eApiRequest test execution ended....
+2025-03-11T22:12:10,580 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.jq.Main@57b63253: 111 ms
+2025-03-11T22:12:10,580 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.FailedReporter@c0013b8: 0 ms
+2025-03-11T22:12:10,604 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.XMLReporter@7c0e4e4e: 22 ms
+2025-03-11T22:12:10,614 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3add5e17: 9 ms
+2025-03-11T22:12:10,624 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@b808af5: 10 ms
+2025-03-11T22:12:10,625 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.internal.ExitCodeListener@18b04526: 0 ms
+2025-03-11T22:18:43,658 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,666 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2025-03-11T22:18:43,666 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,671 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,671 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,671 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,671 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,674 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,674 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,674 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,676 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,676 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,676 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,676 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,677 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,677 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,686 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+2025-03-11T22:18:43,696 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2025-03-11T22:18:43,697 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,697 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,705 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,705 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,706 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,706 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,707 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,707 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,707 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,707 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,707 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11T22:18:43,707 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11T22:18:43,736 [main] INFO  (Logger.java:112) - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2025-03-11T22:18:44,276 [main] INFO  (AllureReportGeneration.java:37) -  e2eApiRequest test execution started....
+2025-03-11T22:18:58,406 [main] INFO  (AllureReportGeneration.java:154) - e2eApiRequest test execution ended....
+2025-03-11T22:18:58,782 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.jq.Main@4ec8d9b2: 233 ms
+2025-03-11T22:18:58,786 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.FailedReporter@57b63253: 4 ms
+2025-03-11T22:18:58,806 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.XMLReporter@58bad46f: 19 ms
+2025-03-11T22:18:58,821 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4cc4d454: 15 ms
+2025-03-11T22:18:58,827 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@26270b77: 6 ms
+2025-03-11T22:18:58,827 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.internal.ExitCodeListener@b808af5: 0 ms
+2025-03-11T23:23:10,981 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\Kishan Kumar Pandey\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-03-11T23:23:16,744 [main] INFO  (RestAssuredListener.java:27) - 
+ MethodPOST
+ URI =>https://restful-booker.herokuapp.com/booking
+ request Body=>{
+  "firstname" : "kishan",
+  "lastname" : "psotman",
+  "additionalneeds" : "breakfas11t",
+  "totalprice" : 109,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-25",
+    "checkout" : "2024-03-30"
+  }
+}
+ response Body=>{
+    "bookingid": 4094,
+    "booking": {
+        "firstname": "kishan",
+        "lastname": "psotman",
+        "totalprice": 109,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-25",
+            "checkout": "2024-03-30"
+        },
+        "additionalneeds": "breakfas11t"
+    }
+}
+2025-03-11T23:23:24,371 [main] INFO  (RestAssuredListener.java:27) - 
+ MethodPOST
+ URI =>https://restful-booker.herokuapp.com/booking
+ request Body=>{
+  "firstname" : "kisha111n",
+  "lastname" : "psotman",
+  "additionalneeds" : "breakfas11t",
+  "totalprice" : 109,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-25",
+    "checkout" : "2024-03-30"
+  }
+}
+ response Body=>{
+    "bookingid": 4288,
+    "booking": {
+        "firstname": "kisha111n",
+        "lastname": "psotman",
+        "totalprice": 109,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-25",
+            "checkout": "2024-03-30"
+        },
+        "additionalneeds": "breakfas11t"
+    }
+}
+2025-03-11T23:23:27,381 [main] INFO  (RestAssuredListener.java:27) - 
+ MethodPOST
+ URI =>https://restful-booker.herokuapp.com/booking
+ request Body=>{
+  "firstname" : "ki3333shan",
+  "lastname" : "psotman",
+  "additionalneeds" : "breakfas11t",
+  "totalprice" : 109,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-25",
+    "checkout" : "2024-03-30"
+  }
+}
+ response Body=>{
+    "bookingid": 4435,
+    "booking": {
+        "firstname": "ki3333shan",
+        "lastname": "psotman",
+        "totalprice": 109,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-25",
+            "checkout": "2024-03-30"
+        },
+        "additionalneeds": "breakfas11t"
+    }
+}

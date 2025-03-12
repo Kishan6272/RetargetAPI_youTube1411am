@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Kishan Kumar Pandey/IdeaProjects/RetargetAPI_youTube1411am/src/main/java/RestAssuredQABocLetsTest/DataDrivenTestingUsingCsvFile.java"><classes><class name="RestAssuredQABocLetsTest.DataDrivenTestingUsingCsvFile"><methods><include name="dataDrivwnTestingUSingCsv"/></methods></class></classes></test></suite>
