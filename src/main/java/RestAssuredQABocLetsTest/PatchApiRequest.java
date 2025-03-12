@@ -40,7 +40,7 @@ public class PatchApiRequest {
             JSONArray jsonArray = JsonPath.read(response.body().asString(), "$.booking..firstname");
             String firstName = (String) jsonArray.get(0);
 
-            Assert.assertEquals(firstName, "apitesting");
+            Assert.assertEquals(firstName, "api testing");
 
 
             JSONArray jsonArrayLastName = JsonPath.read(response.body().asString(), "$.booking..lastname");
@@ -97,7 +97,7 @@ public class PatchApiRequest {
 
 
             // patch api call
-
+        Response response1=
             RestAssured
                     .given()
                        .contentType(ContentType.JSON).body(patchApiRequestBody)
@@ -108,7 +108,9 @@ public class PatchApiRequest {
                     .then()
                     .assertThat()
                     .statusCode(200)
-                    .body("firstname",Matchers.equalTo("kishan"));
+                    .body("firstname",Matchers.equalTo("kishan")).extract().response();
+
+
 
 
 

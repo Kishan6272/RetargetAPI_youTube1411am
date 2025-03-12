@@ -59,7 +59,7 @@ public class AllureReportGeneration extends BaseTest {
             JSONArray jsonArray = JsonPath.read(response.body().asString(), "$.booking..firstname");
             String firstName = (String) jsonArray.get(0);
 
-            Assert.assertEquals(firstName, "apitesting");
+            Assert.assertEquals(firstName, "api testing");
 
 
             JSONArray jsonArrayLastName = JsonPath.read(response.body().asString(), "$.booking..lastname");
@@ -100,7 +100,7 @@ public class AllureReportGeneration extends BaseTest {
 
             String tokenId = JsonPath.read(tokenApiResponse.body().asString(), "$.token");
 
-
+           //put api request
             RestAssured
                     .given().filter(new AllureRestAssured())
                     .contentType(ContentType.JSON)

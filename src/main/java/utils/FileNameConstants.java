@@ -11,4 +11,7 @@ public class FileNameConstants {
 
     public static final String PUT_API_Request_Body=base_path+"putapirequestbody.txt";
     public static final String PATCH_API_Request_Body=base_path+"patchapirequestbody.txt";
+
+    public static final String JSON_TEST_DATA=base_path+"testDataJson.json";
+    public static final String TEST_DATA_CSV=base_path+"testDataCsv.csv";
 }

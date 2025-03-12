@@ -19,18 +19,18 @@ import java.io.IOException;
 public class Post_API_RequestUsingPOJO extends BaseTest {
 
 
-    @Test
+    @Test(enabled = true)
     public void postRequest()
     {
 
-//        BookingDates bookingdates=new BookingDates("2024-03-25","2024-03-30");
+  //      BookingDates bookingdates=new BookingDates("2024-03-25","2024-03-30");
 //        Booking booking=new Booking("apitesting11", "tutorials11", true, bookingdates, "breakfas11t", 109);
 
         ObjectMapper objectMapper=new ObjectMapper();
         try {
             String jsonSchema= FileUtils.readFileToString(new File(FileNameConstants.JSON_SCHEMA),"UTF-8");
             BookingDates bookingdates=new BookingDates("2024-03-25","2024-03-30");
-            Booking booking=new Booking("apitesting11", "tutorials11", 109, true, bookingdates, "breakfas11t");
+            Booking booking=new Booking("apitesting11", "tutorials11", "breakfas11t",109, true, bookingdates);
 
             String requestbody=objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(booking);  //holding the json object
            // System.out.println(requestbody);
@@ -60,14 +60,17 @@ public class Post_API_RequestUsingPOJO extends BaseTest {
             System.out.println(response.asString());
 
               int bookingId= response.path("bookingid");
-            System.out.println(jsonSchema);
+            //System.out.println(jsonSchema);
+            System.out.println(bookingId);
 
               RestAssured
                       .given()
                             .contentType(ContentType.JSON)
+                      .pathParam("bookingId",bookingId)
                            .baseUri("https://restful-booker.herokuapp.com/booking")
+                      .basePath("/{bookingId}")
                       .when()
-                         .get("/{bookingId}",bookingId)
+                         .get()
                       .then()
                           .statusCode(200)
                       .body(JsonSchemaValidator.matchesJsonSchema(jsonSchema));   // validating json schema
@@ -78,5 +81,19 @@ public class Post_API_RequestUsingPOJO extends BaseTest {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+
+    @Test
+    public void postApiRequest() throws IOException {
+        String jsonSchema= FileUtils.readFileToString(new File(FileNameConstants.JSON_SCHEMA),"UTF-8");
+        BookingDates bookingdates=new BookingDates("2024-03-25","2024-03-30");
+        Booking booking=new Booking("apitesting11", "tutorials11","breakfas11t", 109, true, bookingdates );
+
+
+        ObjectMapper objectMapper=new ObjectMapper();
+
+        String requestbody=objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(booking);
+
     }
 }

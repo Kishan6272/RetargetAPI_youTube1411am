@@ -17,9 +17,12 @@ import java.io.IOException;
 public class PostApiRequestUsingFile extends BaseTest {
 
 
-    @Test
+    @Test(enabled = false)
     public void postApiRequest()
         {
+              //FileUtils.readFileToString(new File(FileNameConstants.PATCH_API_Request_Body),)
+
+
             try {
                 String postApiRequestBody=FileUtils.readFileToString(new File(FileNameConstants.PUT_API_Request_Body),"UTF-8");
                 String tokenApiRequestBody=FileUtils.readFileToString(new File(FileNameConstants.Token_API_Request_Body),"UTF-8");
@@ -68,6 +71,82 @@ public class PostApiRequestUsingFile extends BaseTest {
                             .get("/{bookingId}",bookingId)
                         .then()
                           .statusCode(200);
+
+
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+
+
+        @Test
+     public void testpostApiRequest()
+        {
+            try {
+               String postApiRequestbody= FileUtils.readFileToString(new File(FileNameConstants.post_API_Request_Body),"UTF-8");
+               // System.out.println(postApiRequestbody);
+
+              Response response=
+                RestAssured
+                        .given()
+                           .contentType(ContentType.JSON)
+
+                        .baseUri("https://restful-booker.herokuapp.com/booking")
+                        .body(postApiRequestbody)
+                        .when()
+                        .post()
+                        .then()
+                        .assertThat()
+                        .statusCode(200)
+                       .extract().response();
+
+
+//
+              JSONArray jsonArray=JsonPath.read(response.body().asString(),"$.booking..firstname");
+
+              String firstname= (String) jsonArray.get(0);
+
+
+              Assert.assertEquals(firstname,"api testing");
+
+
+
+                JSONArray jsonArrayLastName=JsonPath.read(response.body().asString(),"$.booking..lastname");
+
+                String lastname= (String) jsonArrayLastName.get(0);
+
+
+                Assert.assertEquals(lastname,"tutorials");
+
+
+                JSONArray jsonArrayCheckIn=JsonPath.read(response.body().asString(),"$.booking.bookingdates..checkin");
+
+                String checkIN= (String) jsonArrayCheckIn.get(0);
+
+
+                Assert.assertEquals(checkIN,"2018-01-01");
+
+
+
+                int  bookingId=JsonPath.read(response.body().asString(),"$.bookingid");
+
+                System.out.println(bookingId);
+
+
+
+                RestAssured.given().contentType(ContentType.JSON)
+                        .baseUri("https://restful-booker.herokuapp.com/booking")
+                        .when()
+                        .get("/{bookingId}",bookingId)
+                        .then()
+                        .log().body()
+                        .assertThat()
+                        .statusCode(200);
+
+
+
+
 
 
             } catch (IOException e) {

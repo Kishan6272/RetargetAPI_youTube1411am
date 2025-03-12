@@ -54,7 +54,7 @@ public class EndToEndApiRequest extends BaseTest {
             JSONArray jsonArray = JsonPath.read(response.body().asString(), "$.booking..firstname");
             String firstName = (String) jsonArray.get(0);
 
-            Assert.assertEquals(firstName, "apitesting");
+            Assert.assertEquals(firstName, "api testing");
 
 
             JSONArray jsonArrayLastName = JsonPath.read(response.body().asString(), "$.booking..lastname");

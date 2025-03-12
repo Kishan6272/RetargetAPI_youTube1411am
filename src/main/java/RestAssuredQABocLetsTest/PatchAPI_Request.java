@@ -14,7 +14,7 @@ import utils.FileNameConstants;
 import java.io.File;
 import java.io.IOException;
 
-public class PutAPI_Request {
+public class PatchAPI_Request {
 
     @Test
     public void postApiRequest() {
