@@ -27,30 +27,35 @@ public class DataDrivenTestingUsingCsvFile {
     @Test(dataProvider = "CSV_testData")
     public void dataDrivwnTestingUSingCsv(Map<String,String>testData) throws JsonProcessingException {
         System.out.println(testData.get("firstname"));
-        ObjectMapper objectMapper=new ObjectMapper();
-        int totalprice=Integer.parseInt(testData.get("totalprice"));
-
-        BookingDates bookingdates=new BookingDates("2024-03-25","2024-03-30");
-        Booking booking=new Booking(testData.get("firstname"), testData.get("lastname"), "breakfas11t",totalprice, true, bookingdates);
-
-        String requestbody=objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(booking);  //holding the json object
-        // System.out.println(requestbody);
+        System.out.println(testData.get("lastname"));
 
 
-        // System.out.println();
-        Response response=
-                RestAssured
-                        .given().filter(new RestAssuredListener())
-                        .contentType(ContentType.JSON)
-                        .body(requestbody)
-                        .baseUri("https://restful-booker.herokuapp.com/booking")
-                        .when()
-                        .post()
-                        .then()
-                        .assertThat()
-                        .statusCode(200)
-                        .extract()
-                        .response();
+
+
+//        ObjectMapper objectMapper=new ObjectMapper();
+//        int totalprice=Integer.parseInt(testData.get("totalprice"));
+//
+//        BookingDates bookingdates=new BookingDates("2024-03-25","2024-03-30");
+//        Booking booking=new Booking(testData.get("firstname"), testData.get("lastname"), "breakfas11t",totalprice, true, bookingdates);
+//
+//        String requestbody=objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(booking);  //holding the json object
+//        // System.out.println(requestbody);
+//
+//
+//        // System.out.println();
+//        Response response=
+//                RestAssured
+//                        .given().filter(new RestAssuredListener())
+//                        .contentType(ContentType.JSON)
+//                        .body(requestbody)
+//                        .baseUri("https://restful-booker.herokuapp.com/booking")
+//                        .when()
+//                        .post()
+//                        .then()
+//                        .assertThat().log().all()
+//                        .statusCode(200)
+//                        .extract()
+//                        .response();
 
     }
 

@@ -1,0 +1,190 @@
+2025-04-23T07:49:13,885 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\Kishan Kumar Pandey\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-23T07:49:14,459 [main] INFO  (AllureReportGeneration.java:37) -  e2eApiRequest test execution started....
+2025-04-23T07:49:27,068 [main] INFO  (AllureReportGeneration.java:154) - e2eApiRequest test execution ended....
+2025-04-23T08:05:00,891 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\Kishan Kumar Pandey\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-23T08:05:01,391 [main] INFO  (AllureReportGeneration.java:37) -  e2eApiRequest test execution started....
+2025-04-23T08:05:12,437 [main] INFO  (AllureReportGeneration.java:154) - e2eApiRequest test execution ended....
+2025-04-23T08:16:33,768 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\Kishan Kumar Pandey\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-23T08:16:36,983 [main] INFO  (RestAssuredListener.java:27) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ request Body=>{
+  "firstname" : "kishan",
+  "lastname" : "psotman",
+  "additionalneeds" : "breakfas11t",
+  "totalprice" : 109,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-25",
+    "checkout" : "2024-03-30"
+  }
+}
+ response Body=>{
+    "bookingid": 2730,
+    "booking": {
+        "firstname": "kishan",
+        "lastname": "psotman",
+        "totalprice": 109,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-25",
+            "checkout": "2024-03-30"
+        },
+        "additionalneeds": "breakfas11t"
+    }
+}
+2025-04-23T08:16:38,554 [main] INFO  (RestAssuredListener.java:27) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ request Body=>{
+  "firstname" : "kisha111n",
+  "lastname" : "psotman",
+  "additionalneeds" : "breakfas11t",
+  "totalprice" : 109,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-25",
+    "checkout" : "2024-03-30"
+  }
+}
+ response Body=>{
+    "bookingid": 2745,
+    "booking": {
+        "firstname": "kisha111n",
+        "lastname": "psotman",
+        "totalprice": 109,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-25",
+            "checkout": "2024-03-30"
+        },
+        "additionalneeds": "breakfas11t"
+    }
+}
+2025-04-23T08:16:40,024 [main] INFO  (RestAssuredListener.java:27) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ request Body=>{
+  "firstname" : "ki3333shan",
+  "lastname" : "psotman",
+  "additionalneeds" : "breakfas11t",
+  "totalprice" : 109,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-25",
+    "checkout" : "2024-03-30"
+  }
+}
+ response Body=>{
+    "bookingid": 2760,
+    "booking": {
+        "firstname": "ki3333shan",
+        "lastname": "psotman",
+        "totalprice": 109,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-25",
+            "checkout": "2024-03-30"
+        },
+        "additionalneeds": "breakfas11t"
+    }
+}
+2025-04-23T10:51:26,289 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\Kishan Kumar Pandey\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-23T10:51:29,685 [main] INFO  (RestAssuredListener.java:27) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ request Body=>{
+  "firstname" : "api testing by\tpandey\t10000",
+  "lastname" : "Pandet",
+  "additionalneeds" : "breakfas11t",
+  "totalprice" : 66786,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-25",
+    "checkout" : "2024-03-30"
+  }
+}
+ response Body=>{
+    "bookingid": 103,
+    "booking": {
+        "firstname": "api testing by\tpandey\t10000",
+        "lastname": "Pandet",
+        "totalprice": 66786,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-25",
+            "checkout": "2024-03-30"
+        },
+        "additionalneeds": "breakfas11t"
+    }
+}
+2025-04-23T10:51:31,332 [main] INFO  (RestAssuredListener.java:27) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ request Body=>{
+  "firstname" : "rest assured by \ttestertalk\t889080",
+  "lastname" : "Pandet",
+  "additionalneeds" : "breakfas11t",
+  "totalprice" : 66786,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-25",
+    "checkout" : "2024-03-30"
+  }
+}
+ response Body=>{
+    "bookingid": 114,
+    "booking": {
+        "firstname": "rest assured by \ttestertalk\t889080",
+        "lastname": "Pandet",
+        "totalprice": 66786,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-25",
+            "checkout": "2024-03-30"
+        },
+        "additionalneeds": "breakfas11t"
+    }
+}
+2025-04-23T10:51:32,962 [main] INFO  (RestAssuredListener.java:27) - 
+ Method =>POST
+ URI =>https://restful-booker.herokuapp.com/booking
+ request Body=>{
+  "firstname" : "postman by \ttester talk \t898988",
+  "lastname" : "Pandet",
+  "additionalneeds" : "breakfas11t",
+  "totalprice" : 66786,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-25",
+    "checkout" : "2024-03-30"
+  }
+}
+ response Body=>{
+    "bookingid": 131,
+    "booking": {
+        "firstname": "postman by \ttester talk \t898988",
+        "lastname": "Pandet",
+        "totalprice": 66786,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-25",
+            "checkout": "2024-03-30"
+        },
+        "additionalneeds": "breakfas11t"
+    }
+}
+2025-04-23T11:46:55,043 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\Kishan Kumar Pandey\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-23T11:48:26,963 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\Kishan Kumar Pandey\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+

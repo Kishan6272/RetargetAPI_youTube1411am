@@ -4,6 +4,7 @@ import com.jayway.jsonpath.JsonPath;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import listner.RestAssuredListener;
 import net.minidev.json.JSONArray;
 import org.apache.commons.io.FileUtils;
 import org.hamcrest.Matchers;
@@ -26,7 +27,7 @@ public class PutAPI_Request {
             // post api call
             Response response =
                     RestAssured
-                            .given()
+                            .given().filter(new RestAssuredListener())
                             .contentType(ContentType.JSON)
                             .body(postApiRequestBody)
                             .baseUri("https://restful-booker.herokuapp.com/booking")
@@ -88,13 +89,16 @@ public class PutAPI_Request {
                     .given()
                     .contentType(ContentType.JSON)
                     .body(putApiRequestBody)
-                    .header("Cookie", "token =" + tokenId)
+                    //.header("Cookie", "token =" + tokenId)
+                    .header("Authorization","Basic YWRtaW46cGFzc3dvcmQxMjM=")
                     .baseUri("https://restful-booker.herokuapp.com/booking")
                     .when()
                     .put("/{bookingId}", bookingId)
                     .then()
                     .assertThat()
-                    .statusCode(200).body("firstname", Matchers.equalTo("APItesting"));
+                    .statusCode(200)
+                    .body("firstname", Matchers.equalTo("APItesting"))
+                    .body("bookingdates.checkin",Matchers.equalTo("2018-01-01"));
 
 
         } catch (IOException e) {

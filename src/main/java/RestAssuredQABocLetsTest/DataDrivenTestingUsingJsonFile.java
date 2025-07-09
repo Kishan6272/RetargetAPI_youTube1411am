@@ -42,7 +42,7 @@ public class DataDrivenTestingUsingJsonFile {
                         .baseUri("https://restful-booker.herokuapp.com/booking")
                         .when()
                         .post()
-                        .then()
+                        .then().log().all()
                         .assertThat()
                         .statusCode(200)
                         .extract()
@@ -60,6 +60,8 @@ public class DataDrivenTestingUsingJsonFile {
             String jsonTestData=FileUtils.readFileToString(new File(FileNameConstants.JSON_TEST_DATA),"UTF-8");
 
           JSONArray jsonArray= JsonPath.read(jsonTestData,"$");
+
+            System.out.println(jsonArray.size());
 
 
           obj=new Object[jsonArray.size()];

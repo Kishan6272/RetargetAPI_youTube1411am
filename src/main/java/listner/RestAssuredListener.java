@@ -24,7 +24,7 @@ public class RestAssuredListener implements Filter {
 
         //  if(response.getStatusCode() != 200 & response.getStatusCode() != 201 ){
 
-            logger.info("\n Method" + filterableRequestSpecification.getMethod() +
+            logger.info("\n Method =>" + filterableRequestSpecification.getMethod() +
                     "\n URI =>" + filterableRequestSpecification.getURI() +
                     "\n request Body=>" + filterableRequestSpecification.getBody() +
                     "\n response Body=>" + response.getBody().prettyPrint()

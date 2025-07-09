@@ -111,6 +111,9 @@ public class PatchApiRequest {
                     .body("firstname",Matchers.equalTo("kishan")).extract().response();
 
 
+            System.out.println(response1.prettyPrint().toString());
+
+
 
 
 
